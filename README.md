@@ -10,12 +10,12 @@ Just a couple of notes:
 
 To use this template for a new project, do:
 
-    $ django-admin.py startproject --template=https://github.com/dgh--/django-twoscoops-project/archive/master.zip --extension=py,md,html <project-name>
+    $ django-admin.py startproject --template=https://github.com/dgh--/django-project-template/archive/master.zip --extension=py,md,html <project-name>
 
 To save me having to write the above out whenever I want to start a new project, I added the following to my .bashrc:
 
     function start_django_project() {
-        django-admin.py startproject --template=https://github.com/dgh--/django-twoscoops-project/archive/master.zip --extension=py,md,html $1
+        django-admin.py startproject --template=https://github.com/dgh--/django-project-template/archive/master.zip --extension=py,md,html $1
     }
 
 Note that the above won't work unless you're in a virtualenv with Django 1.6 or above.
